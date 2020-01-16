@@ -4,7 +4,6 @@ Feature: Delete Customer
     Given Open website https://www.way2automation.com/angularjs-protractor/banking/#/manager/list
 
   Scenario Outline: Delete Customer
-#    When I type first name as <firstName>
     Then I verify that system is already delete customer <firstName> as <lastName> as <postCode>
 
     Examples:
