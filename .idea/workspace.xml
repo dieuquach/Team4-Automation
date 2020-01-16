@@ -1,10 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a086d518-7294-41af-bc85-d858d4c13c3b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/features/customerDeposit.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/features/customerLogin.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/features/customerTransaction.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/features/customerWithdraw.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/CustomerDepositPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/CustomerLoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/CustomerTransactionsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/CustomerWithdrawPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tests/CustomerDepositTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tests/CustomerLoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tests/CustomerTransactionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tests/CustomerWithdrawTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/features/deleteCustomer.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/features/deleteCustomer.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/CommonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CommonPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/runner/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/CommonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/CommonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/PageProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/PageProvider.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1WSggnK2tWOlMk1BdMtZXYPURvW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/features" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mai.truong.PN\Desktop\Team4-Automation\src\main\java\features" />
+      <recent name="C:\Users\mai.truong.PN\Desktop\Team4-Automation\src\main\java\pages" />
+      <recent name="C:\Users\mai.truong.PN\Desktop\Team4-Automation\src\main\java\tests" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="C:/Users/mai.truong.PN/Desktop/Team4-Automation/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CucumberTestNG" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/mai.truong.PN/Desktop/Team4-Automation/testng.xml" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a086d518-7294-41af-bc85-d858d4c13c3b" name="Default Changelist" comment="" />
+      <created>1579148927127</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579148927127</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="580" y="148" key="FileChooserDialogImpl" timestamp="1579149041922">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="148" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1579149041922" />
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1579150791037">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1579150791037" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1579150791037">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1579150791037" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1579150791037">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1579150791037" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1579150791037">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1579150791037" />
+    <state x="465" y="130" key="NewModule_or_Project.wizard" timestamp="1579149043435">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="465" y="130" key="NewModule_or_Project.wizard/0.0.1600.860@0.0.1600.860" timestamp="1579149043435" />
   </component>
 </project>

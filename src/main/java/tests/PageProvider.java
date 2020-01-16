@@ -6,6 +6,10 @@ import runner.TestRunner;
 
 public class PageProvider {
 
+    private static CustomerLoginPage customerLoginPage;
+    private static CustomerDepositPage customerDepositPage;
+    private static CustomerWithdrawPage customerWithdrawPage;
+    private static CustomerTransactionsPage customerTransactionsPage;
     private static AddCustomerPage addCustomerPage;
     private static OpenAccountPage openAccountPage;
     private static CommonPage commonPage;
@@ -47,4 +51,31 @@ public class PageProvider {
         return deleteCustomerPage;
     }
 
+    public static CustomerLoginPage getCustomerLoginPage(){
+        if (customerLoginPage == null) {
+            customerLoginPage = PageFactory.initElements(TestRunner.driver, CustomerLoginPage.class);
+        }
+        return customerLoginPage;
+    }
+
+    public static CustomerDepositPage getCustomerDepositPage(){
+        if (customerDepositPage == null) {
+            customerDepositPage = PageFactory.initElements(TestRunner.driver, CustomerDepositPage.class);
+        }
+        return customerDepositPage;
+    }
+
+    public static CustomerWithdrawPage getCustomerWithdrawPage(){
+        if (customerWithdrawPage == null) {
+            customerWithdrawPage = PageFactory.initElements(TestRunner.driver, CustomerWithdrawPage.class);
+        }
+        return customerWithdrawPage;
+    }
+
+    public static CustomerTransactionsPage getTransactionPage(){
+        if (customerTransactionsPage == null) {
+            customerTransactionsPage = PageFactory.initElements(TestRunner.driver, CustomerTransactionsPage.class);
+        }
+        return customerTransactionsPage;
+    }
 }

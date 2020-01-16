@@ -1,0 +1,86 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4702709000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open website https://www.way2automation.com/angularjs-protractor/banking/#/manager/list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.way2automation.com/angularjs-protractor/banking/#/manager/list",
+                  "offset": 13
+                }
+              ],
+              "location": "CommonTest.user_already_on_home_page(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Delete Customer",
+        "description": "",
+        "id": "delete-customer;delete-customer;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9613890600,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "#    When I type first name as \u003cfirstName\u003e"
+              }
+            ],
+            "line": 8,
+            "name": "I verify that system is already delete customer Harry as Potter as E725JB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Harry",
+                  "offset": 48
+                },
+                {
+                  "val": "Potter",
+                  "offset": 57
+                },
+                {
+                  "val": "E725JB",
+                  "offset": 67
+                }
+              ],
+              "location": "DeleteCustomerTest.deleteCustomerSuccessfully(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Delete Customer",
+    "description": "",
+    "id": "delete-customer",
+    "keyword": "Feature",
+    "uri": "src/main/java/features/deleteCustomer.feature"
+  }
+]
